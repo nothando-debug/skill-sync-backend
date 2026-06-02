@@ -5,3 +5,4 @@ engine = create_engine('postgresql://postgres:123@localhost:5432/notes_db')
 SessionLocal = sessionmaker(bind=engine)
 
 Base = declarative_base()
+# this is the part where it creates the database to store whatever needs to be stored
